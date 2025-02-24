@@ -4,7 +4,7 @@ Detect features supported in browsers to better inform CSS, JS and API usage.
 
 ## Overview
 
-Add `browser-feature-detection.js` to single point of entry page (e.g. login): 
+Add `browser-feature-detection.js` to `<head>` of single point of entry page (e.g. login): 
 
 `<script defer src="/browser-feature-detection.js"></script>`
 
