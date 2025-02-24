@@ -12,6 +12,6 @@ Everytime _(yes, everytime)_  page is loaded by a browser recored the feature le
 
 ## Implemenation
 
-**Note**: requires backend to store and record the data
+**Note**: requires backend support to manage and record the results
 
 ### CSS Features
