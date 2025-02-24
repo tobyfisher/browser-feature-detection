@@ -1,0 +1,19 @@
+{
+  "name": "browser-feature-detection",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simple browser feature detection",
+  "author": {
+    "name": "Toby Fisher",
+    "url": "https://knowego.com/"
+  },
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobyfisher/idgJS/"
+  },
+  "main": "browser-feature-detection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
