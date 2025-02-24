@@ -20,16 +20,16 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// Browser APIs
-	if( HTMLElement.prototype.hasOwnProperty("popover"){
+	if( HTMLElement.prototype.hasOwnProperty("popover")){
 		myLevel.api.add("popover");
 	}
-	
+
 	myLevel.api = Array.from(myLevel.api);
 
 	// send the simple feature detection level
 	fetch(url, {
 		method: "POST",
-		body: JSON.stringify( myLevel );
+		body: JSON.stringify( myLevel )
 	});
 });
 
