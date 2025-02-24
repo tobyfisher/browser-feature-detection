@@ -6,7 +6,7 @@ Detect features supported in browsers to better inform CSS, JS and API usage.
 
 Add `browser-feature-detection.js` to single point of entry page (e.g. login): 
 
-`<script defer="" src="/browser-feature-detection.js"></script>`
+`<script defer src="/browser-feature-detection.js"></script>`
 
 Everytime _(yes, everytime)_  page is loaded by a browser recored the feature level data via JSON POST
 
