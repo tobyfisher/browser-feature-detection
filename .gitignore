@@ -1,0 +1,9 @@
+# OS X #
+.DS_Store
+
+# iDEs #
+.idea
+.nova
+
+# node modules #
+node_modules
