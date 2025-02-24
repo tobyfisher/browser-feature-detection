@@ -1,9 +1,15 @@
-# Simple JS Browser feature detection
+# Simple JS feature detection
 
-This simple detects key features in browser in order to monitor User browser usage and inform CSS, JS and API usage.
+Detect feature support in browsers to better inform CSS, JS and API usage.
 
-## Concept
+## Overview
 
-- Add JS on a single point of entry page
-- Everytime (yes, everytime) this page is load send a simple key value  
-- Feature detection is passed to URL as KEY=VALUE pair (will need storing to reference later)
+Add JS to a single point of entry page (e.g. login)
+
+Everytime _(yes, everytime)_ this page is loaded by a browser, even if same IP, recored the feature level data via JSON POST
+
+## Implemenation
+
+**Note**: requires backend to store and record the data
+
+### CSS Features
