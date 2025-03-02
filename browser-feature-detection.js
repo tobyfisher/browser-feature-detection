@@ -24,6 +24,14 @@ window.addEventListener('DOMContentLoaded', () => {
 		myLevel.api.add("popover");
 	}
 
+	if( 'customElements' in window ){
+		myLevel.api.add("customElements")
+	}
+
+	if( 'IntersectionObserver' in window ){
+		myLevel.api.add("intersectionObserver");
+	}
+
 	myLevel.api = Array.from(myLevel.api);
 
 	// send the simple feature detection level
