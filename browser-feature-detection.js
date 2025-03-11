@@ -20,16 +20,16 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// Browser APIs
-	if( HTMLElement.prototype.hasOwnProperty("popover")){
-		myLevel.api.add("popover");
-	}
-
 	if( 'customElements' in window ){
 		myLevel.api.add("customElements")
 	}
 
 	if( 'IntersectionObserver' in window ){
 		myLevel.api.add("intersectionObserver");
+	}
+
+	if( HTMLElement.prototype.hasOwnProperty("popover")){
+		myLevel.api.add("popover");
 	}
 
 	myLevel.api = Array.from(myLevel.api);
