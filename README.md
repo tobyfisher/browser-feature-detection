@@ -20,7 +20,8 @@ JSON String structure: `css: {string}, api: {Array}`
 
 `css` records a single CSS level as a string e.g. `2-grid`
 
-`api` is an array of checked APIs e.g. `['customElements', 'intersectionObserver']` - note an empty `[]` = `no-api-support` 
+`api` is an array of checked APIs e.g. `['customElements', 'intersectionObserver']`
+note: an empty `[]` = `no-api-support` 
 
 ### Storing the analytics
 
@@ -28,14 +29,15 @@ Every time a match is found increment the associated value
 
 ### Viewing the analytics
 
-Provide a simple table to review the results e.g.
+Provide a simple table to review the results e.g. like this:
 
-| level     | count | 
-|-----------|-------|
+| level   | count | 
+|---------|-------|
 | 0-unknown | 2     |
-| 2-grid    | 199   |
-| customElements   | 100   |
-| intersectionObserver   | 30    |
+| 2-grid  | 199   |
+| no-api-support    | 3     |
+| customElements | 100   |
+| intersectionObserver | 30    |
 
 
 
