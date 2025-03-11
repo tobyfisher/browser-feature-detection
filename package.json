@@ -1,6 +1,5 @@
 {
   "name": "browser-feature-detection",
-  "private": true,
   "version": "1.0.0",
   "description": "Simple browser feature detection",
   "author": {
@@ -10,10 +9,7 @@
   "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tobyfisher/idgJS/"
+    "url": "https://github.com/tobyfisher/browser-feature-detection/"
   },
-  "main": "browser-feature-detection.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "main": "browser-feature-detection.js"
 }

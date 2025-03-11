@@ -30,7 +30,7 @@ Every time a match is found increment the associated value
 
 ### Viewing the analytics
 
-Provide a simple table to review the results e.g. like this:
+Provide a simple table to review the results e.g. something like this:
 
 | level   | count | 
 |---------|-------|
