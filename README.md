@@ -21,7 +21,8 @@ JSON String structure: `css: {string}, api: {Array}`
 `css` records a single CSS level as a string e.g. `2-grid`
 
 `api` is an array of checked APIs e.g. `['customElements', 'intersectionObserver']`
-note: an empty `[]` = `no-api-support` 
+
+note: an empty api array `[]` = `no-api-support` 
 
 ### Storing the analytics
 
